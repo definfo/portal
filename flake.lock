@@ -1,0 +1,42 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1721379653,
+        "narHash": "sha256-8MUgifkJ7lkZs3u99UDZMB4kbOxvMEXQZ31FO3SopZ0=",
+        "rev": "1d9c2c9b3e71b9ee663d11c5d298727dace8d374",
+        "revCount": 655136,
+        "type": "tarball",
+        "url": "https://api.flakehub.com/f/pinned/NixOS/nixpkgs/0.1.655136%2Brev-1d9c2c9b3e71b9ee663d11c5d298727dace8d374/0190cd4f-c0eb-72cb-834b-ac854aa282dc/source.tar.gz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://flakehub.com/f/NixOS/nixpkgs/0.1.%2A.tar.gz"
+      }
+    },
+    "nixpkgs-df23c96": {
+      "locked": {
+        "lastModified": 1620015740,
+        "narHash": "sha256-kNQsw1pCzJM4EPIJEhCi17NMpDE8pwqHamS6ad83rmc=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "df23c968285f443cca67600e91a2724fa3166c34",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "df23c968285f443cca67600e91a2724fa3166c34",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "nixpkgs-df23c96": "nixpkgs-df23c96"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
